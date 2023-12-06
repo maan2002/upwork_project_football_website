@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+/* Home Page CSS................................. */
+.logo h2 {
+  color: blue;
+  font-size: 50px;
+  text-align: center;
+}
+header {
+  background: linear-gradient(to left, #2e31ecdc, #1499aae0);
+}
+header .nav {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  list-style: none;
+}
+header .nav .nav-item {
+  align-items: center;
+}
+header .nav .nav-item .nav-link {
+  text-decoration: none;
+  color: antiquewhite;
+}
+header .nav .nav-item .nav-link:hover {
+  color: rgb(164, 208, 238);
+  transition: all 0.3s ease 0s;
+}
+.home-img {
+  width: 80%;
+  margin: 20px auto 0;
+  display: block;
+}
+.cards-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+.card p {
+  text-align: justify;
+  margin-top: 12px;
+}
+.card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.left-img,
+.center-img,
+.right-img {
+  width: 350px;
+  height: 200px;
+}
+.right-img {
+  margin-top: 27px;
+}
+
+/* About Page CSS................................. */
+.about-main-section h1,
+.contact-main-section h1,
+.schedule-main-section h1,
+.history-main-section h1,
+.transfer-main-section h1 {
+  font-size: 55px;
+  color: blue;
+  text-align: center;
+  margin: 10px 0px;
+}
+.about-main-section .about-img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.about-para {
+  width: 70%;
+  margin: 10px auto;
+}
+.about-para p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+/* Contact Us Page Css ......................... */
+
+.contact-main-section h2 {
+  text-align: center;
+}
+.contact-content {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  height: 400px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.left-content h2 {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.left-content p {
+  text-align: justify;
+}
+.right-content form {
+  margin-left: 40%;
+}
+.right-content label {
+  margin-right: 40px;
+}
+.right-content input {
+  height: 30px;
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.right-content h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.right-content button {
+  background-color: rgb(63, 63, 250);
+  color: white;
+  font-size: 17px;
+  border: none;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.right-content button:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(209, 209, 253);
+  border-radius: 10px;
+}
+
+/* Schedule Page CSS ............................  */
+
+.content {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+.title {
+  text-align: center;
+  padding: 2px 0px;
+  margin: auto;
+  margin: 10px auto;
+}
+.para {
+  text-align: justify;
+  padding: 0px 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+
+/* Club History Page CSS.................................... */
+
+.container iframe {
+  margin-left: 290px;
+}
+.history-cards {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.history-cards h2 {
+  text-align: center;
+}
+.history-cards p {
+  text-align: justify;
+  padding: 20px;
+}
+/* Transfer Page CSS ........................   */
+
+.transfer-content {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+  grid-gap: 15px;
+  margin-bottom: 15px;
+}
+.content-item {
+  border-radius: 8px;
+}
+
+.content-item p {
+  text-align: justify;
+  padding: 20px;
+}
+.content-item h2 {
+  text-align: center;
+}
+.content-item img {
+  width: 300px;
+  margin: 10px 0px;
+}
